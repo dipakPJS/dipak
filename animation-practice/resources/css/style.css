@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100vh;
+   background: rgb(52, 49, 49);
+   background-position: center;
+   background-size: cover;
+   background-blend-mode: color-burn;
+   background-repeat: no-repeat;
+   position: relative;
+
+
+
+}
+
+.main{
+
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 80px;
+display: flex;
+ 
+
+
+}
+
+.item{
+    margin-right: 20px;
+}
+
+
+.item1{
+   animation-name: item1;
+   animation-timing-function: ease-in-out;
+   animation-duration: 1s ;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+   animation-delay: 0.15s;
+}
+
+.item2{
+    animation-name: item2;
+   animation-timing-function: ease-in-out;
+   animation-duration: 1s ;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+   animation-delay: 0.30s;
+}
+
+.item3{
+    animation-name: item3;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 0.45s;
+}
+.item4{
+    animation-name: item4;
+   animation-timing-function: ease-in-out;
+   animation-duration: 1s ;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+   animation-delay: 1s;
+}
+.item5{
+    animation-name: item5;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 1.15s;
+}
+
+/* now starting animation of the text */
+
+
+@keyframes item1{
+    from{
+      
+        margin-top: 100px;
+    }
+
+    to{
+     
+        color:aqua;
+         
+    }
+}
+
+@keyframes item2{
+    from{
+        
+        margin-top: 100px;
+    }
+
+    to{
+       
+        color: green;
+    }
+}
+@keyframes item3{
+    from{
+        
+        margin-top: 100px;
+    }
+
+    to{
+       
+        color: yellow;
+    }
+}
+ 
+
+@keyframes item4{
+    from{
+     
+        margin-top: 100px;
+    }
+
+    to{
+     
+        color: blue;
+    }
+}
+ 
+@keyframes item5{
+    from{
+        
+        margin-top: 100px;
+    }
+
+    to{
+        color: red;
+    }
+}
+ 
+
