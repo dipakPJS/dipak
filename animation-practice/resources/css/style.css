@@ -1,8 +1,15 @@
+// global selection starts
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+// global selection ends
+
+/*----- header section starts ---------*/
 
 .header{
     height: 100vh;
@@ -80,6 +87,8 @@ display: flex;
     animation-delay: 1.15s;
 }
 
+/*------ header section ends ---------*/
+
 /* now starting animation of the text */
 
 
@@ -143,4 +152,6 @@ display: flex;
     }
 }
  
+
+/*-------- animation section ends -----------*/
 
